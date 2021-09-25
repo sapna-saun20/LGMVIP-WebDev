@@ -1,0 +1,42 @@
+
+ 
+h1
+{
+text-shadow:gray 3px 3px 3px;//will give text a gray shade
+box-shadow:gray 3px 3px 3px 3px;//will give box a gray shade
+}
+#gallery ul li
+{
+border:5px solid black;// will create a border of 5 px with black colour
+float:left;//will move the images to the left
+width:27%;//images will be created with 27% width
+margin:1%; //will place images at a distance of 1% from one another
+position:relative;//image will be positioned
+list-style:none;//will hide the bullet points
+}#gallery ul li .pic
+{
+width:100%;// image will be made with 100% width
+height:200px;//image will be 200px in height
+-webkit-transition:-webkit-transform 3s linear;// it’s a CSS3 property for transformation
+}
+#gallery ul li .pic:hover
+{
+-webkit-transform:rotate(360deg);//will rotate the image to 360 degree; you can also use 180deg instead of 360deg
+}
+#gallery ul li label
+{
+background-color:black;//will color the background of label, black
+color:white;//will color the text of label, white
+bottom:0%;//will fix the label at bottom
+opacity:0.5;//will make the background color 50% lighter
+position:absolute;//it is often used with relative property
+height:30px;//height of the label will become 30px
+width:100%;//will make the width of label, 100%
+text-align:center;//will align the text in center
+-webkit-transition:height 2s linear;//will call –webkit-transition property
+}
+#gallery ul li label:hover
+{
+height:80px;//caption will rise to 80px, because of hover command
+ 
+}
